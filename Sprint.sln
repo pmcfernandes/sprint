@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint", "Sprint\Sprint.csproj", "{73AB342A-7835-486D-A5E6-A1C9C8F1592F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint.Core", "Sprint.Core\Sprint.Core.csproj", "{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73AB342A-7835-486D-A5E6-A1C9C8F1592F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AB342A-7835-486D-A5E6-A1C9C8F1592F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AB342A-7835-486D-A5E6-A1C9C8F1592F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AB342A-7835-486D-A5E6-A1C9C8F1592F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3767A25-2EB8-447E-A9EA-A1A944E990E6}
+	EndGlobalSection
+EndGlobal
