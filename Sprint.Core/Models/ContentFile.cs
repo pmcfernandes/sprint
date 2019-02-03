@@ -120,7 +120,7 @@ namespace Sprint.Models
 
             if (Date == null && obj.date != null)
             {
-                if (DateTime.TryParse(obj.date, out DateTime dt))
+                if (DateTime.TryParse(obj.date.ToString(), out DateTime dt))
                     Date = dt;
             }
         }

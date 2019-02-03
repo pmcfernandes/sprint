@@ -3,6 +3,10 @@ using RazorEngine.Templating;
 using RazorEngine.Text;
 using System;
 using System.Dynamic;
+using System.Reflection;
+using System.Security;
+using System.Security.Permissions;
+using System.Security.Policy;
 
 namespace Sprint.Generators
 {
@@ -25,12 +29,12 @@ namespace Sprint.Generators
         /// </summary>
         /// <param name="templateManager">The template manager.</param>
         public RazorGenerator(ITemplateManager templateManager)
-        {
+        {           
             service = RazorEngineService.Create(new TemplateServiceConfiguration()
             {
                 Language = RazorEngine.Language.CSharp,
                 EncodedStringFactory = new RawStringFactory(),
-                TemplateManager = templateManager
+                TemplateManager = templateManager,
             });
         }
 

@@ -1,5 +1,6 @@
 ﻿namespace Sprint.Modules
 {
+  
     public interface IModuleInfo
     {
         /// <summary>
@@ -12,5 +13,11 @@
         {
             get;
         }
+
+        /// <summary>
+        /// Executes the specified parameters.
+        /// </summary>
+        /// <param name="params">The parameters.</param>
+        void Execute(IModuleParameter @params);
     }
 }

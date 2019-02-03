@@ -105,5 +105,21 @@ namespace Sprint.Modules
 
             return instance;
         }
+
+        /// <summary>
+        /// Gets the type of the modules by.
+        /// </summary>
+        /// <param name="moduleType">Type of the module.</param>
+        /// <returns></returns>
+        public IEnumerable<IModuleInfo> GetModulesByType(ModuleType moduleType)
+        {
+            foreach (var l in ModuleList)
+            {
+                if (l.Metadata.Type == moduleType)
+                {
+                    yield return l.Value;
+                }
+            }
+        }
     }
 }

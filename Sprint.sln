@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint", "Sprint\Sprint.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint.Core", "Sprint.Core\Sprint.Core.csproj", "{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint.Module.SmashImages", "Sprint.Module.SmashImages\Sprint.Module.SmashImages.csproj", "{1D13D8C2-8A97-4EEA-A907-56B39A980B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFD92CA5-C0DF-49E2-BA7E-3EB8E69390C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D13D8C2-8A97-4EEA-A907-56B39A980B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D13D8C2-8A97-4EEA-A907-56B39A980B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D13D8C2-8A97-4EEA-A907-56B39A980B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D13D8C2-8A97-4EEA-A907-56B39A980B0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

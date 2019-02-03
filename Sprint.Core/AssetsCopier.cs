@@ -33,6 +33,17 @@ namespace Sprint
         }
 
         /// <summary>
+        /// Gets the assets folder.
+        /// </summary>
+        /// <value>
+        /// The assets folder.
+        /// </value>
+        public string AssetsFolder
+        {
+            get { return _assetsDir; }
+        }
+
+        /// <summary>
         /// Copies to.
         /// </summary>
         /// <param name="outputDir">The output dir.</param>
