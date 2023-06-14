@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Linq;
 
 namespace Sprint.Module.SmashImages
 {
@@ -22,11 +23,11 @@ namespace Sprint.Module.SmashImages
         /// <param name="params">The parameters.</param>
         public void Execute(IModuleParameter @params)
         {
+            string[] supportedExtensions = new string[] { ".jpeg", ".jpg", ".gif", ".png" };
+
             FileInfo fileInfo = new FileInfo(@params.Filename);
 
-            if (fileInfo.Extension == ".jpg" || 
-                fileInfo.Extension == ".gif" || 
-                fileInfo.Extension == ".png")
+            if (supportedExtensions.Contains(fileInfo.Extension))
             {
                 System.Console.Write("Smashing image " + fileInfo.FullName);
 
